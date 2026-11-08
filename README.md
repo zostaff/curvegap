@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/banner.svg" alt="CURVEGAP" width="100%"/></p>
+<p align="center"><img src="docs/header.svg" alt="CURVEGAP" width="100%"/></p>
 
 <p align="center">
   <a href="#quick-start"><img src="https://img.shields.io/badge/node-%3E%3D22-22d3ee?style=flat-square&logo=node.js&logoColor=white&labelColor=0b1422" alt="Node 22+"></a>
