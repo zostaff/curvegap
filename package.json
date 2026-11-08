@@ -1,0 +1,34 @@
+{
+  "name": "curvegap",
+  "version": "1.0.0",
+  "description": "Atomic arbitrage bot between pump.fun bonding curves and the PumpSwap AMM on Solana",
+  "type": "module",
+  "main": "bot/arbitrage.mjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node bot/arbitrage.mjs",
+    "dry-run": "node bot/arbitrage.mjs --dry-run",
+    "scan": "node bot/scanner.mjs",
+    "wallet:new": "node lib/wallet.mjs --generate",
+    "alt:create": "node bot/setup-alt.mjs",
+    "simulate": "node bot/arbitrage.mjs --dry-run --simulate"
+  },
+  "keywords": [
+    "solana",
+    "pump.fun",
+    "pumpswap",
+    "arbitrage",
+    "jito",
+    "mev"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.12",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.key
+wallet*.json
+logs/
+.DS_Store
+._*
