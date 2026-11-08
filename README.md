@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/curvegap.svg" alt="CURVEGAP" width="100%"/></p>
+<p align="center"><img src="docs/img/curvegap.svg" alt="CURVEGAP" width="100%"/></p>
 
 <p align="center">
   <a href="#quick-start"><img src="https://img.shields.io/badge/node-%3E%3D22-22d3ee?style=flat-square&logo=node.js&logoColor=white&labelColor=0b1422" alt="Node 22+"></a>
@@ -37,7 +37,7 @@ Path 2  (AMM cheaper):    buy on PumpSwap       →  sell on bonding curve
 
 ## How it works
 
-<p align="center"><img src="docs/pipeline.svg" alt="Pipeline: listen, discover, price, size, fire" width="100%"/></p>
+<p align="center"><img src="docs/img/pipeline.svg" alt="Pipeline: listen, discover, price, size, fire" width="100%"/></p>
 
 <details>
 <summary>Same flow as text</summary>
@@ -106,7 +106,7 @@ pool, both vaults). It is also refreshed right away (debounced 150 ms) whenever 
 
 ### Size
 
-<p align="center"><img src="docs/sizing.svg" alt="Concave profit curve with cap and optimum" width="100%"/></p>
+<p align="center"><img src="docs/img/sizing.svg" alt="Concave profit curve with cap and optimum" width="100%"/></p>
 
 ```
 CURVE_TO_AMM:  profit(x) = ammSellNet(x)   − curveBuyCost(x)
@@ -131,7 +131,7 @@ before it builds the transaction.
 
 ## Anatomy of one arb
 
-<p align="center"><img src="docs/anatomy.svg" alt="Instruction layout of both arbitrage paths" width="100%"/></p>
+<p align="center"><img src="docs/img/anatomy.svg" alt="Instruction layout of both arbitrage paths" width="100%"/></p>
 
 | Path | Instructions |
 | --- | --- |
@@ -152,7 +152,7 @@ before it builds the transaction.
 Before risking SOL, find out whether the market has any gaps at all. The recorder runs the scanner
 for hours or days and logs everything it sees to disk. It never trades and needs no wallet.
 
-<p align="center"><img src="docs/recorder.svg" alt="Recorder terminal output" width="100%"/></p>
+<p align="center"><img src="docs/img/recorder.svg" alt="Recorder terminal output" width="100%"/></p>
 
 ```bash
 npm run record -- --duration 6h            # or 30m, 2d; omit to run until Ctrl+C
@@ -256,7 +256,7 @@ bot/
   executor.mjs    builds, simulates and sends the atomic arb transaction
   recorder.mjs    long-running market statistics → JSONL + summary
   setup-alt.mjs   creates the Address Lookup Table with all static accounts
-docs/             README graphics
+docs/img/         README graphics
 ```
 
 ## Reality check
