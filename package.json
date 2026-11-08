@@ -13,7 +13,9 @@
     "scan": "node bot/scanner.mjs",
     "wallet:new": "node lib/wallet.mjs --generate",
     "alt:create": "node bot/setup-alt.mjs",
-    "simulate": "node bot/arbitrage.mjs --dry-run --simulate"
+    "simulate": "node bot/arbitrage.mjs --dry-run --simulate",
+    "record": "node bot/recorder.mjs",
+    "report": "node bot/recorder.mjs --report"
   },
   "keywords": [
     "solana",

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+  <rect width="1200" height="470" rx="14" fill="#05080f"/>
+  <rect x="0.5" y="0.5" width="1199" height="469" rx="14" fill="none" stroke="#1e3a4c"/>
+  <path d="M0 14 A14 14 0 0 1 14 0 H1186 A14 14 0 0 1 1200 14 V40 H0 Z" fill="#0b1422"/>
+  <circle cx="26" cy="20" r="6" fill="#f43f5e"/><circle cx="46" cy="20" r="6" fill="#fbbf24"/><circle cx="66" cy="20" r="6" fill="#34d399"/>
+  <text x="600.0" y="25" text-anchor="middle" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5b7590">curvegap — recorder (illustrative output)</text>
+  <text x="28" y="78" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#5b7590" xml:space="preserve">$ npm run record -- --duration 6h</text>
+  <text x="28" y="128" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#22d3ee" font-weight="700" xml:space="preserve">  curvegap recorder  — long-run market statistics</text>
+  <text x="28" y="153" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  INFO  Writing to logs/scan-2026-11-08T14-35-57 · duration 6h 0m</text>
+  <text x="28" y="178" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#34d399" xml:space="preserve">  OK    WebSocket connected  https://mainnet.helius-rpc.com/?api-key=****</text>
+  <text x="28" y="203" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#34d399" xml:space="preserve">  OK    Dual-venue token 7xKq…pump pool 3vNa…9fQ2</text>
+  <text x="28" y="228" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#5b7590" xml:space="preserve">  INFO  12m 0s · events 214,880 · pairs 3 (1 tradable) · spreads 41 · opportunities 0</text>
+  <text x="28" y="278" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#e2f3ff" font-weight="700" xml:space="preserve">  Recording summary</text>
+  <text x="28" y="303" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  Events             curve 57.2/s  ·  AMM 233.8/s</text>
+  <text x="28" y="328" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  Skipped            graduated 4,312  ·  cashback 18</text>
+  <text x="28" y="353" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  Dual-venue pairs   3 discovered  ·  1 tradable</text>
+  <text x="28" y="378" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  Tradable spreads   200+: 27  300+: 9  500+: 2</text>
+  <text x="28" y="403" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#fbbf24" xml:space="preserve">  Opportunities      0 episodes  (0/h)</text>
+  <text x="28" y="428" font-family="'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9fb3c8" xml:space="preserve">  Theoretical PnL    0 SOL  (0 SOL/h)  upper bound, no competition</text>
+  <rect x="28" y="439" width="9" height="17" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
